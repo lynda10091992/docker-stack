@@ -1,4 +1,4 @@
-FROM postgres:15
+FROM postgres:17
 RUN mkdir /sql
 WORKDIR /sql
 COPY *.sql /sql/
